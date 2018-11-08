@@ -12,3 +12,8 @@ Use
 instead, by placing it into the `resources\definitions` folder
 where Ultimaker Cura 3D is installed. Then, restart Cura if it was already
 open, and a new "Cocoon" category will appear in the "Add Printer" wizard.
+
+Finally, you will need to correct the "Compatible material diameter" under
+machine settings - the official Cocoon filament is 1.75mm thick, not the
+2.85mm Cura assumes. This is defined in the profile but still does not
+translate correctly to the new printer settings in Cura version 3.5.1.
